@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BloomFilter/BloomFilter.iml" filepath="$PROJECT_DIR$/BloomFilter/BloomFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiProc/MultiProc.iml" filepath="$PROJECT_DIR$/MultiProc/MultiProc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Trics.iml" filepath="$PROJECT_DIR$/.idea/Trics.iml" />
     </modules>
   </component>
