@@ -62,6 +62,4 @@ public class MultiProc {
     public void release() {
         this.executorService.shutdown();
     }
-
-
 }

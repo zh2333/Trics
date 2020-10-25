@@ -8,12 +8,12 @@ public class Test {
         proc.init();
 
         int size = arr.length;
-        System.out.println(size);
+        //System.out.println(size);
         int pageSize = 5;
-        //for (int i = 0; i < size / pageSize; i ++) {
-        //    int[] tmp = Arrays.copyOfRange(arr, i * pageSize, i * pageSize + pageSize);
-            proc.addtask("printArray", arr);
-        //}
+        for (int i = 0; i < size / pageSize; i ++) {
+            int[] tmp = Arrays.copyOfRange(arr, i * pageSize, i * pageSize + pageSize);
+            proc.addtask("printArray", tmp);
+        }
         proc.release();
     }
 }
